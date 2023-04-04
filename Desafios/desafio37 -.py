@@ -3,3 +3,5 @@
 # 1 para binário
 # 2 para octal
 # 3 para hexadecimal
+n = int(input('Digite um número inteiro qualquer '))
+base = input('Quer converter para qual base? \n [1] BINÁRIOA \n [2] OCTAL \n [3] HEXADECIMAL')
