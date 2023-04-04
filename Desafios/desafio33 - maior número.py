@@ -5,3 +5,4 @@ n2 = int(input('Digite o segundo número '))
 n3 = int(input('Digite o terceiro número '))
 numeros = [n1, n2, n3]
 print('O maior valor é {}'.format(max(numeros)))
+print('O menos valor é {}'.format(min(numeros)))
