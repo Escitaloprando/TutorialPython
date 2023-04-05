@@ -14,3 +14,21 @@ elif (computador == jogadas[2] and jogador == jogadas[0]) or (computador == joga
 # Empate:
 else:
     print('Empate! \n Computador: {} \n Jogador: {} \n Tente novamente!'.format(computador, jogador))
+
+# --- Resolução Anterior ---
+# if computador == jogadas[0] and jogador == jogadas[2]:
+#     print('ERA DAS MÁQUINAS! O Computador venceu. \n Computador: {} \n Jogador: {} \n Tente novamente'.format(computador, jogador))
+# elif computador == jogadas[2] and jogador == jogadas[1]:
+#     print('ERA DAS MÁQUINAS! O Computador venceu. \n Computador: {} \n Jogador: {} \n Tente novamente'.format(computador, jogador))
+# elif computador == jogadas[1] and jogador == jogadas[0]:
+#     print('ERA DAS MÁQUINAS! O Computador venceu. \n Computador: {} \n Jogador: {} \n Tente novamente'.format(computador, jogador))
+# # Jogador Vence:
+# elif computador == jogadas[2] and jogador == jogadas[0]:
+#     print('Viva a humanidade! Você venceu. \n Computador: {} \n Jogador: {} \n Tente novamente'.format(computador, jogador))
+# elif computador == jogadas[1] and jogador == jogadas[2]:
+#     print('Viva a humanidade! Você venceu. \n Computador: {} \n Jogador: {} \n Tente novamente'.format(computador, jogador))
+# elif computador == jogadas[0] and jogador == jogadas[1]:
+#     print('Viva a humanidade! Você venceu. \n Computador: {} \n Jogador: {} \n Tente novamente'.format(computador, jogador))
+# # Empate:
+# else:
+#     print('Empate! \n Computador: {} \n Jogador: {} \n Tente novamente!'.format(computador, jogador))
